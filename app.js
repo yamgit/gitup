@@ -1,1 +1,1 @@
-alert("Hola Mundo, aprediendo Git en casa");
+console.log("Hola Mundo, aprediendo Git en casa");
