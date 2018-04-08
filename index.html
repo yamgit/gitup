@@ -6,7 +6,7 @@
   </head>
   <body>
     <h1 style="text-align:center;">
-      <p><strong> Prueba de Git en HTML   </strong></p>
+      <u><p><strong> Prueba de Git en HTML   </strong></p></u>
     </h1>
 
     <p>
@@ -68,8 +68,27 @@ archivos quieres controlar, seguidos de un git commit para confirmar los
             $ git commit -m 'initial project version'
           </p>
         </h4>
-      <p></p>
-    <p></p>
+
+    <p>
+          <u><center><h3>Clonando un repositorio existente</h3></center></u>
+
+      Si deseas obtener una copia de un repositorio Git existente or ejemplo, un proyecto en el que te gustaría contribuir
+      el comando que necesitas es git clone. Si estás familizarizado con otros sistemas de control de versiones como Subversion,
+      verás que el comando es "clone" en vez de "checkout". Es una distinción importante, ya que Git recibe una copia de casi todos
+      los datos que tiene el servidor. Cada versión de cada archivo de la historia del proyecto es descargada por defecto cuando ejecutas git clone.
+
+      <p>
+
+        De hecho, si el disco de tu servidor se corrompe, puedes usar cualquiera de los clones en cualquiera de los clientes para devolver
+         al servidor al estado en el que estaba cuando fue clonado (puede que pierdas algunos hooks del lado del servidor y demás, pero toda
+         la información acerca de las versiones estará ahí) — véase Configurando Git en un servidor para más detalles.
+      </p>
+
+      Puedes clonar un repositorio con git clone [url]. Por ejemplo, si quieres clonar la librería de Git llamada libgit2 puedes hacer algo así:
+      <br>
+      <h4><center>$ git clone https://github.com/libgit2/libgit2 </center></h4>
+
+    </p>
     <script src="Prueba%20de%20GIT_files/app.js" type="text/javascript">
 
     </script>
